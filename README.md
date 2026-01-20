@@ -10,7 +10,7 @@ Toolbox: Python (Scikit-image, NumPy, Pandas)
 
 Constraint: No OpenCV was used as per project requirements.
 
-📂 Folder Structure
+# 📂 Folder Structure
 The script expects the following directory layout:
 
 Plaintext
@@ -22,7 +22,7 @@ Plaintext
 ├── Rejected/                     # Output: Images with detection issues
 ├── rice_metadata_final.csv       # Output: Extracted features in CSV
 └── Variety_Folders/              # Input: Original images (e.g., Basmati, SuperKainat)
-🛠️ Processing Pipeline
+# 🛠️ Processing Pipeline
 The script follows a rigorous image processing pipeline:
 
 Preprocessing: Converts raw images to grayscale and applies Otsu's Thresholding for background subtraction.
@@ -43,23 +43,22 @@ Color Analysis: Computes the average RGB values.
 
 Output Generation: Saves cropped grain images using the specified naming convention and generates a CSV metadata file.
 
-🚀 How to Run
+# 🚀 How to Run
 Clone the repository:
 
-Bash
 
 git clone https://github.com/your-username/rice-grain-dataset.git
 Install Dependencies:
 
-Bash
+
 
 pip install numpy pandas scikit-image scipy
 Execute the script: Navigate to the CODE/ directory and run:
 
-Bash
+
 
 python main_script.py
-📊 Features in Metadata
+# 📊 Features in Metadata
 The generated rice_metadata_final.csv includes:
 
 Grain Image Name: Unique filename per grain.
