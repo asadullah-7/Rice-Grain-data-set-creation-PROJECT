@@ -1,7 +1,7 @@
-🌾 Rice Grain Variety Dataset Creation
+# 🌾 Rice Grain Variety Dataset Creation
 This repository contains an automated pipeline for creating a high-quality dataset of rice grain varieties. The system segments individual grains from raw images, performs real-world scale calibration, and extracts essential morphological and color features.
 
-📌 Project Overview
+# 📌 Project Overview
 The goal of this project is to build a structured dataset of 15 different rice varieties for a variety identification system.
 
 Roll No: L1F23BSCS0225
